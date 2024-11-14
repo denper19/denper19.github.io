@@ -115,3 +115,18 @@ li
   background:#fec;
   color:inherit;
   font-size:85%;}
+
+.project-brief {
+  background-color:rgb(238, 238, 230);
+  text-align: justify;
+  padding: 5px;
+  padding-left: 15px;
+  width: 500px;
+  height: 300px;
+}
+
+.project-brief img {
+  max-width: 90%;
+  max-height: 75%;
+  display: block;
+}
