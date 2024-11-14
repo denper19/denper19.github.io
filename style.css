@@ -117,16 +117,19 @@ li
   font-size:85%;}
 
 .project-brief {
-  background-color:rgb(238, 238, 230);
+  background-color:rgb(250, 247, 247);
   text-align: justify;
   padding: 5px;
+  margin: 7px;
   padding-left: 15px;
-  width: 500px;
-  height: 300px;
+  width: 700px;
+  overflow: auto; 
+  /* border: 1px solid black; */
+  height: 450px;
 }
 
 .project-brief img {
   max-width: 90%;
   max-height: 75%;
-  display: block;
+  display:flex;
 }
