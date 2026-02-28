@@ -2719,14 +2719,41 @@ input, select, textarea {
 				color: inherit;
 			}
 
-/* Main */
+/* Main - right side: dark theme, all text green */
 
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
+		background: var(--bg-dark);
+		color: var(--green-text);
 	}
+
+		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6,
+		#main p, #main li, #main td, #main th, #main label,
+		#main .major, #main header.major h2 {
+			color: var(--green-text);
+		}
+
+		#main a {
+			color: var(--green-bright);
+		}
+
+		#main a:hover {
+			color: var(--green-muted) !important;
+		}
+
+		#main input, #main select, #main textarea {
+			color: var(--green-text);
+			background: var(--bg-card);
+			border-color: var(--border-dark);
+		}
+
+		#main input::placeholder,
+		#main textarea::placeholder {
+			color: var(--green-muted);
+		}
 
 		#main > section {
 			border-top: solid 2px var(--border-dark);
